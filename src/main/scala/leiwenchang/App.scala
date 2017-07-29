@@ -1,5 +1,7 @@
 package leiwenchang
 
+import com.sun.research.ws.wadl.Application
+
 /**
  * Hello world!
  *
