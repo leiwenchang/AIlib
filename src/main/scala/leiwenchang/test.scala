@@ -1,11 +1,11 @@
 package leiwenchang
 
-import org.apache.spark.{SparkConf, SparkContext}
-
 /**
   * Created by Administrator on 2017/7/29.
   */
-object hello {
+import org.apache.spark.{SparkConf, SparkContext}
+
+object test {
   def main(args: Array[String]) {
     val sparkconf = new SparkConf().setMaster("local").setAppName("hello")
     val sc = new SparkContext(sparkconf)
