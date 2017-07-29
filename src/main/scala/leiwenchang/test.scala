@@ -10,7 +10,8 @@ object test {
     val sparkconf = new SparkConf().setMaster("local").setAppName("hello")
     val sc = new SparkContext(sparkconf)
     val rdd=sc.parallelize(Array(1,2,3))
-    println(rdd.count())
     println("hello")
+    println(rdd.count())
+
   }
 }
